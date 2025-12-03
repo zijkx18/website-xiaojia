@@ -8,7 +8,7 @@ new TypeIt("#tqyxhj", {
     .delete(null, {
         delay: 500
     })
-    .type("我是主理人傅减减")
+    .type("我是+++的忠实粉丝：傅减减")
     .pause(3000)
     .go();
 
