@@ -12,7 +12,7 @@ function lovetime() {
     var todayHour = today.getHours()
     var todayMinute = today.getMinutes()
     var todaySecond = today.getSeconds()
-    var t1 = Date.UTC(2018, 11, 19, 00, 00, 00)
+    var t1 = Date.UTC(2025, 5, 2, 17, 20, 00)
     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
     var diff = t2 - t1
     var diffYears = Math.floor(diff / years)
@@ -24,4 +24,5 @@ function lovetime() {
     document.getElementById("lovetime").innerHTML = "我们已经在一起 " + diffYears + "年" + diffDays + "天" +
         diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒啦"
 }
+
 lovetime()
