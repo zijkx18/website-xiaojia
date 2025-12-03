@@ -134,7 +134,7 @@ a:hover {
 /* 分页2 - 时间轴 */
 .page2 {
     height: 100%;
-    background-image: linear-gradient(to right, rgba(0, 162, 255, 0.4), rgba(255, 0, 255, 0.2)), url(../images/bg2.jpg);
+    background-image: linear-gradient(to right, rgba(0, 162, 255, 0.4), rgba(255, 0, 255, 0.2)), url(../images/bg2.png);
     padding-top: 5%;
 }
 
@@ -543,4 +543,5 @@ img {
     .xhjIsPig .pig2 {
         left: -15px;
     }
+
 }
