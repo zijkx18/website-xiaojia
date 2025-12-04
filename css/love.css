@@ -266,6 +266,19 @@ img {
     text-align: center;
 }
 
+.letter {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 150px;
+    border: 1px solid black; 
+    color: black;            
+    border-radius: 20px;
+    margin: 20px auto 0 auto; 
+    padding: 15px;
+    text-align: center;
+}
+
 .blog:hover {
     color: black;
     background-color: white;
@@ -545,3 +558,4 @@ img {
     }
 
 }
+
