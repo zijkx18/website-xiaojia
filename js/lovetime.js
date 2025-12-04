@@ -21,9 +21,10 @@ function lovetime() {
     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
         minutes) / seconds)
-    document.getElementById("lovetime").innerHTML = "我们已经在一起 " + diffDays + "天" +
-        diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒啦"
+    document.getElementById("lovetime").innerHTML = "我们的爱情进度条：" + diffDays + "天" +
+        diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒..."
 }
 
 lovetime()
+
 
